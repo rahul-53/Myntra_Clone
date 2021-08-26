@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/categories">
+
+    <activity
+        android:id="@+id/home1"
+        android:name="com.example.myntra_clone.Home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+
+    <activity
+        android:id="@+id/categories"
+        android:name="com.example.myntra_clone.Categories"
+        android:label="activity_categories"
+        tools:layout="@layout/activity_categories" />
+    <activity
+        android:id="@+id/explore"
+        android:name="com.example.myntra_clone.Explore"
+        android:label="activity_explore"
+        tools:layout="@layout/activity_explore" />
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.myntra_clone.Profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
+        android:id="@+id/studio"
+        android:name="com.example.myntra_clone.Studio"
+        android:label="activity_studio"
+        tools:layout="@layout/activity_studio" />
+</navigation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".Home">
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:background="@drawable/top_logo"
+
+        />
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_toLeftOf="@+id/ivNotification"
+        android:id="@+id/ivSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_marginTop="15dp"
+
+
+        />
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_toLeftOf="@+id/ivFavourites"
+        android:id="@+id/ivNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_notifications_24"
+        />
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_toLeftOf="@+id/ivShoppingBag"
+        android:id="@+id/ivFavourites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_favorite_24"
+        />
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ivShoppingBag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_shopping_bag_24"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <HorizontalScrollView
+
+        android:id="@+id/upper_horizontal_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/hot_deals_11zon"
+                android:layout_margin="5dp"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/men_11zon"
+                android:layout_margin="5dp"
+                />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/women_11zon" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/kids_11zon"
+                android:layout_margin="5dp"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/beauty_11zon"
+                android:layout_margin="5dp"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/home_11zon"
+                android:layout_margin="5dp"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/footware_11zon"
+                android:layout_margin="5dp"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/gadgets_11zon"
+                android:layout_margin="5dp"
+                />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/new_launch_11zon"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+    </HorizontalScrollView>

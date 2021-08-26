@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shopByCategory"
+            android:icon="@drawable/ic_baseline_category_24"
+            android:title="Shop by Categories" />
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_baseline_bookmark_border_24"
+            android:title="@string/orders" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/faqS"
+            android:title="@string/faqs" />
+        <item
+            android:id="@+id/contactUs"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/legal"
+            android:title="LEGAL"/>
+    </group>
+</menu>

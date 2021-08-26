@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:src="@drawable/myntra_logo"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="15dp"
+           />
+       <ImageView
+           android:layout_marginRight="20dp"
+           android:layout_alignParentEnd="true"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:src="@drawable/ic_baseline_close_24"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="15dp"
+           />
+   </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#E72744"
+
+            />
+
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#E72744"
+            />
+
+    </LinearLayout>
+    <EditText
+
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:textSize="12sp"
+        android:textColorHint="#E72744"
+        />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By continuing, I agree to the Terms of Use and Privacy Policy."
+       android:layout_marginTop="20dp"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        />
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="continue"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"/>
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Having trouble LoggingIn? Get help"
+        android:layout_marginTop="30dp"
+        android:textSize="12sp"
+
+        />
+
+</LinearLayout>

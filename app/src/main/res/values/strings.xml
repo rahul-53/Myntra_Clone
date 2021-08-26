@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Myntra_Clone</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="studio">Studio</string>
+    <string name="explore">Explore</string>
+    <string name="profile">Profile</string>
+    <string name="orders">Orders</string>
+    <string name="help_center">Help Center</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="scan_for_coupon">Scan for Coupon</string>
+    <string name="faqs">FAQs</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="terms_of_use">TERMS OF USE</string>
+    <string name="privacy_policy">PRIVACY POLICY</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="explore_in_myntra">Explore in Myntra</string>
+    <string name="myntra_insider">Myntra Insider</string>
+    <string name="myntra_luxe">Myntra Luxe</string>
+    <string name="gift_cards">Gift Cards</string>
+    <string name="myntra_mall">Myntra Mall</string>
+    <string name="play_and_earn">Play and Earn</string>
+    <string name="myntra_move">Myntra Move</string>
+    <string name="refer_and_earn">Refer And Earn</string>
+    <string name="myntra_fashion_superstar">Myntra Fashion Superstar</string>
+    <string name="myntra_masterclass">Myntra Masterclass</string>
+    <string name="shop_by_categories">Shop by Categories</string>
+    <string name="legal">LEGAL</string>
+    <string name="contact_us">CONTACT US</string>
+
+</resources>
