@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Myntra_Clone">
-        <activity android:name=".TopWidget"></activity>
-        <activity android:name=".login" />
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".Notifications" />
+        <activity android:name=".ShoppingBag" />
+        <activity android:name=".TopWidget" />
+        <activity android:name=".Login" />
         <activity android:name=".UpperDeals" />
         <activity android:name=".Home" />
         <activity android:name=".Profile" />

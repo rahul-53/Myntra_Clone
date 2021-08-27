@@ -7,7 +7,17 @@
 
     tools:context=".Home">
 
+    <ImageView
+        android:id="@+id/ivSideNavIcon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_baseline_view_headline_24"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        />
+
     <View
+        android:layout_toRightOf="@id/ivSideNavIcon"
         android:layout_marginTop="15dp"
         android:layout_marginStart="15dp"
         android:layout_width="65dp"

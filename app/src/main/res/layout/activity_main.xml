@@ -34,30 +34,10 @@
         </RelativeLayout>
 
 
-        <Button
-            android:layout_below="@id/upperConstraint"
-            android:id="@+id/btnNext"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="gotonext"/>
-        <Button
-            android:id="@+id/btnExplore"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="gotonext"
-            android:layout_below="@+id/btnNext"
-            />
-        <Button
-            android:id="@+id/btnCategories"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="gotonext"
-            android:layout_below="@+id/btnExplore"
-            />
 
 
         <RelativeLayout
-            android:layout_below="@id/btnCategories"
+            android:layout_below="@id/upperConstraint"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="50dp">
@@ -119,27 +99,67 @@
                         android:weightSum="3"
                         >
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:src="@drawable/flat_seventy_percent_off"
                             android:layout_weight="1"
                             />
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:src="@drawable/under299"
                             android:layout_weight="1"
                             />
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:src="@drawable/buy1_get1_free"
                             android:layout_weight="1"
                             />
 
                     </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_margin="10dp"
+                            android:id="@+id/ivImageFosil"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/fossil"
+                            />
+                        <ImageView
+                            android:layout_margin="10dp"
+                            android:layout_toRightOf="@id/ivImageFosil"
+                            android:id="@+id/ivImageHomeDecor"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/home_decor"
+                            />
+                        <ImageView
+                            android:layout_margin="10dp"
+                            android:layout_below="@+id/ivImageFosil"
+                            android:id="@+id/ivImageCalviva"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/claviva"
+                            />
+                        <ImageView
+                            android:layout_margin="10dp"
+                          android:layout_toRightOf="@id/ivImageCalviva"
+                            android:layout_below="@id/ivImageHomeDecor"
+                            android:id="@+id/ivImageDorothyPerkins"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/dorothy_perkins"
+                            />
+
+                    </RelativeLayout>
+
 
                 </LinearLayout>
+
+
 
             </ScrollView>
 

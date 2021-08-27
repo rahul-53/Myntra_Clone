@@ -1,10 +1,16 @@
 package com.example.myntra_clone;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -18,12 +24,15 @@ public class Categories extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
         mRecyclerView = findViewById(R.id.recyclerView);
+
         buildCategoryList();
         setRecyclerView();
+
 
     }
 
     private void buildCategoryList(){
+
 
         CategoriesModel categoriesModel=new CategoriesModel(R.drawable.c_autumn_winter_11zon);
         categoriesModelArrayList.add(categoriesModel);
@@ -58,4 +67,7 @@ public class Categories extends AppCompatActivity {
         mRecyclerView.setAdapter(adapter);
 
     }
+
+
+
 }
